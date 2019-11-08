@@ -1,0 +1,47 @@
+.topo {
+    margin: 20px;
+    padding: 20px;
+    background-color: #660000;
+    color: white;
+    text-align: center;
+}
+
+.borda, .borda2, .borda3 {
+    margin: 15px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.texto {
+    margin: auto;
+    width: 850px;
+    height: 250px;
+    overflow: auto;
+    text-align: left;
+}
+
+#table-diferente {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto; /* CENTRALIZAR A TABELA*/
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px; /*PREENCHIMENTO*/
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #apenas-texto {
+      font-size: 20px;
+  }
+
+  .imagem {
+      float: right
+  }
+
+  
